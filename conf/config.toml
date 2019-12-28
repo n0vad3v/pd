@@ -38,6 +38,8 @@ level = "info"
 
 # file logging
 [log.file]
+## File to store logs.
+### If it is not set, logs will be appended to stderr.
 # filename = ""
 ## max log file size in MB
 # max-size = 300
